@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">madlibsproject</string>
+    <string name="ml_title">What is for Dinner?</string>
+    <string name="sentence_1">It was Thanksgiving, and the scent of succulent roast</string>
+    <string name="sentence_2">wafted through my house. \"</string>
+    <string name="sentence_extra2">my house. \"</string>
+    <string name="sentence_3">it\'s time to</string>
+    <string name="sentence_4">!\" my mother called. I couldn\'t</string>
+    <string name="sentence_5">on that</string>
+    <string name="sentence_6">Thanksgiving meal.</string>
+    <string name="sentence_7">My family sat around the dining-</string>
+    <string name="sentence_8">. The table was</string>
+    <string name="sentence_9">imaginable. There was</string>
+    <string name="sentence_10">and glasses of</string>
+    <string name="sentence_11">. The</string>
+    <string name="sentence_12">turkey sat, steaming,</string>
+    <string name="sentence_13">gravy. A bowl of ruby-red</string>
+    <string name="sentence_14">sauce, a sweet-</string>
+    <string name="sentence_15">and a dish of mashed</string>
+    <string name="sentence_16">tempted my taste buds. But the dish I looked forward to most was Grandma</string>
+    <string name="sentence_17">\'s famous</string>
+    <string name="sentence_18">Thanksgiving is my favorite holiday,</string>
+    <string name="sentence_19">down!</string>
+    <string name="sentence_extra3">room</string>
+    <string name="sentence_extra4">wait to get my</string>
+</resources>

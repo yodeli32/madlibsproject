@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".CreateActivity">
+
+    <EditText
+        android:id="@+id/liquid_1"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:hint="type of liquid"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liquid" />
+
+    <TextView
+        android:id="@+id/liquid"
+        android:layout_width="277dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Type of Liquid:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/body_part" />
+
+    <EditText
+        android:id="@+id/body_part"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:hint="body part"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/body_part_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/potb" />
+
+    <EditText
+        android:id="@+id/body_part_2"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="body part"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/potb" />
+
+    <TextView
+        android:id="@+id/potb"
+        android:layout_width="277dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Parts of the Body (plural)"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adjetive_1" />
+
+    <EditText
+        android:id="@+id/adjetive_2"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="adjetive"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adjetives" />
+
+    <EditText
+        android:id="@+id/adjetive_1"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:hint="adjetive"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adjetives" />
+
+    <TextView
+        android:id="@+id/adjetives"
+        android:layout_width="172dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Adjetives:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pir" />
+
+    <EditText
+        android:id="@+id/pir"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:hint="person in room"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/person_title" />
+
+    <TextView
+        android:id="@+id/person_title"
+        android:layout_width="172dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Person In Room:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verb" />
+
+    <EditText
+        android:id="@+id/verb"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:hint="verb"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verb_title" />
+
+    <TextView
+        android:id="@+id/verb_title"
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Verb:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pluralN_1" />
+
+    <EditText
+        android:id="@+id/pluralN_1"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="plural noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/pluralN_2"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pluralNouns_title" />
+
+    <EditText
+        android:id="@+id/pluralN_2"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="plural noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pluralNouns_title" />
+
+    <TextView
+        android:id="@+id/pluralNouns_title"
+        android:layout_width="203dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Plural Nouns:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_5" />
+
+    <EditText
+        android:id="@+id/noun_6"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_4" />
+
+    <EditText
+        android:id="@+id/noun_5"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/noun_6"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_3" />
+
+    <EditText
+        android:id="@+id/noun_4"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_2" />
+
+    <EditText
+        android:id="@+id/noun_2"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_title" />
+
+    <EditText
+        android:id="@+id/noun_3"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/noun_4"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_1" />
+
+    <TextView
+        android:id="@+id/noun_title"
+        android:layout_width="117dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Nouns:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/noun_1"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="noun"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/noun_2"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noun_title" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="149dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        android:onClick="sendMessage"
+        android:text="CREATE!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toEndOf="@+id/liquid_1"
+        app:layout_constraintTop_toBottomOf="@+id/liquid"
+        tools:ignore="OnClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>
